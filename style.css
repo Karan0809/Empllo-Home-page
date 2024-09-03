@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height:70vh;
+    width: 100%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: lightgray;
+}
+
+.nav{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+span a{
+    color: #240642;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.l1{
+    font-size: 25px;
+}
+
+.l2{
+    font-size: 28px;
+}
+
+.l3{
+    font-size: 30px;
+}
+
+.l4{
+    font-size: 32px;
+}
+
+.l5{
+    font-size: 34px;
+}
+
+.l6{
+    font-size: 36px;
+}
+
+.logo-2 a{
+    color: #4b5563;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.opt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.opt a{
+    color: #240642;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 120px;
+}
+
+.btn1 button{
+    background-color: #a13dff;
+    border: 1px solid gray;
+}
+
+.btn1 a{
+    color: white;
+}
+
+.btn2 a{
+    color: #a13dff;
+}
+
+.btn2 button{
+    border: 1px ridge gray;
+    background-color: transparent;
+}
+
+.dark a{
+    position: relative;
+    left: 20px;
+    color:#a13dff;
+    font-size: 30px;
+}
+
+.main{
+    position: relative;
+    top:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.main-btn .btn1{
+    background-color: #a13dff;
+    width: 150px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-btn .btn2{
+    background-color: #240642;
+    width: 150px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-btn .btn2 a{
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    height: 40vh;
+    width: 80%;
+}
+
+.sec1{
+    display: flex;
+    position: relative;
+    top: 10px;
+    gap: 10px;
+}
+
+.sec1 div{
+    height: 140px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.sec1 .s11 .p2{
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+
+.sec1 h3{
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.sec1 .p1{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.sec1 .p2{
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+
+.head h1{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #240642;
+}
+
+.head h3{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #4b5563;
+}
+
+aside .main{
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-color: lightgrey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+aside .main .ch1, .ch2, .ch3{
+    height: 30vh;
+    width: 95%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.ch{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    height: 25vh;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.d1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.con1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.con2{
+    position: relative;
+    left: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
